@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T09:01:21 IST" name="Suite" finished-at="2023-09-15T09:01:45 IST" duration-ms="24034">
+    <groups>
+    </groups>
+    <test started-at="2023-09-15T09:01:21 IST" name="HomePage" finished-at="2023-09-15T09:01:36 IST" duration-ms="14157">
+      <class name="testcases.HomePage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePage@21282ed8]" started-at="2023-09-15T09:01:21 IST" name="setup" finished-at="2023-09-15T09:01:27 IST" duration-ms="5206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="google()[pri:0, instance:testcases.HomePage@21282ed8]" started-at="2023-09-15T09:01:27 IST" name="google" finished-at="2023-09-15T09:01:36 IST" duration-ms="8910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePage@21282ed8]" started-at="2023-09-15T09:01:36 IST" name="tearDown" finished-at="2023-09-15T09:01:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2023-09-15T09:01:36 IST" name="HomePageLogs" finished-at="2023-09-15T09:01:45 IST" duration-ms="9859">
+      <class name="testcases.HomePageLogs">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageLogs@25641d39]" started-at="2023-09-15T09:01:36 IST" name="setup" finished-at="2023-09-15T09:01:37 IST" duration-ms="1431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="google()[pri:0, instance:testcases.HomePageLogs@25641d39]" started-at="2023-09-15T09:01:37 IST" name="google" finished-at="2023-09-15T09:01:45 IST" duration-ms="8426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageLogs@25641d39]" started-at="2023-09-15T09:01:45 IST" name="tearDown" finished-at="2023-09-15T09:01:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageLogs -->
+    </test> <!-- HomePageLogs -->
+  </suite> <!-- Suite -->
+</testng-results>
